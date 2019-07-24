@@ -1,0 +1,68 @@
+	body {
+		margin-left: 455px;
+		background: green;
+
+	}
+	img {
+	}
+
+	.allgreenout {
+		background: lightgreen;
+		border: 3px solid green;
+		border-radius: 0px 40px 0px 40px;
+	}
+
+	.item1 img {
+		border-right: 5px inset #1C6EA4;
+		border-radius: 0px 40px 0px 40px;
+	}
+
+	.item1 {
+		-moz-transform: rotate(47deg) translate(0px, -2px);
+		-webkit-transform: rotate(47deg) translate(0px, -2px);
+		-o-transform: rotate(47deg) translate(0px, -2px);
+		-ms-transform: rotate(47deg) translate(0px, -2px);
+		transform: rotate(47deg) translate(0px, -2px);
+	}  
+
+	.item2 img {
+		border-right: 5px inset #1C6EA4;
+		border-radius: 0px 40px 0px 40px;
+	}
+
+	.item2 {
+		-moz-transform: scale(1.3) rotate(223deg) translate(0px, 6px) skew(2deg, -2deg);
+		-webkit-transform: scale(1.3) rotate(223deg) translate(0px, 6px) skew(2deg, -2deg);
+		-o-transform: scale(1.3) rotate(223deg) translate(0px, 6px) skew(2deg, -2deg);
+		-ms-transform: scale(1.3) rotate(223deg) translate(0px, 6px) skew(2deg, -2deg);
+		transform: scale(1.3) rotate(223deg) translate(0px, 6px) skew(2deg, -2deg);
+	}  
+
+	.item3 img {
+		border-right: 5px inset #1C6EA4;
+		border-radius: 0px 40px 0px 40px;
+	}
+
+	.item3 {
+
+		-moz-transform: scale(1.3) rotate(334deg) translate(0px, 6px) skew(-3deg, 1deg);
+		-webkit-transform: scale(1.3) rotate(334deg) translate(0px, 6px) skew(-3deg, 1deg);
+		-o-transform: scale(1.3) rotate(334deg) translate(0px, 6px) skew(-3deg, 1deg);
+		-ms-transform: scale(1.3) rotate(334deg) translate(0px, 6px) skew(-3deg, 1deg);
+		transform: scale(1.3) rotate(334deg) translate(0px, 6px) skew(-3deg, 1deg);
+	} 
+
+
+	.item4 img {
+		border-right: 5px inset #1C6EA4;
+		border-radius: 0px 40px 0px 40px;
+	}
+
+
+	.item4 {
+		-moz-transform: scale(0.8) rotate(318deg) skew(-1deg, 0deg);
+		-webkit-transform: scale(0.8) rotate(318deg) skew(-1deg, 0deg);
+		-o-transform: scale(0.8) rotate(318deg) skew(-1deg, 0deg);
+		-ms-transform: scale(0.8) rotate(318deg) skew(-1deg, 0deg);
+		transform: scale(0.8) rotate(318deg) skew(-1deg, 0deg);
+	}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script> 
+		$(document).ready(function(){
+			$("button").click(function(){
+				var div = $("img");
+				div.animate({height: '300px', opacity: '0.4'}, "slow");
+				div.animate({width: '300px', opacity: '0.8'}, "slow");
+				div.animate({height: '100px', opacity: '0.4'}, "slow");
+				div.animate({width: '100px', opacity: '0.8'}, "slow");
+			});
+		});
+	</script> 
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+	<button>Start Animation</button>
+	<div style=" color: lightgreen; font-size: 25px ">
+	</div>
+	<div style="
+	;height:100px;width:100px;position:absolute;">
+	<div class="allgreenout">
+		<div class="item1"><img style=" background: #09badc"  width="322px" src="/Users/frankymartir/desktop/4823/Z1I59uCr01.svg">
+			<div class="item2"><img style=" background: #d4c224"  width="222px" src="/Users/frankymartir/desktop/4823/Z1I59uCr01.svg"></div>
+		</div>
+		<div class="item3"><img style=" background: #476be2"  width="122px" src="/Users/frankymartir/desktop/4823/Z1I59uCr01.svg"></div>
+		<div class="item4"><img style=" background: lightblue"  width="422px" src="/Users/frankymartir/desktop/4823/Z1I59uCr01.svg"></div>
+	</div>
+</div>
+</body>
+</html>
